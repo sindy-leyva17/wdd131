@@ -1,0 +1,177 @@
+body{
+    display: grid;
+    font-family: "Roboto", sans-serif;
+}
+h1{
+    font-weight: 400;
+    font-style: normal;
+    color:#fff;
+}
+header{
+    text-align: center;
+    background: red;
+}
+.first{
+    display: flex;
+    justify-content: space-around;
+    background: black;
+    font-size: 100%;
+    padding: 10px;
+    font-weight: 300;
+    font-style: normal;
+}
+.first a {
+    
+    color: #fff;
+    text-decoration: none;
+    padding: 5px;
+    
+}
+.first a:hover{
+    background-color: #fff;
+    color: black;
+    padding-left: 8px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    padding-right: 8px;
+    border-radius: 10px;
+}
+main{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto;
+    
+}
+
+.card{
+    margin: 10px;
+    margin-bottom: 40px;
+    padding-bottom:0px;
+    background: white;
+    
+  
+}
+.card h2 {
+    background-color:red; 
+    padding: 10px; 
+    margin: 0; 
+    text-align: center;
+    color: white;
+    font-weight: 400;
+    
+}
+#firstcard{
+    border: 2px solid rgb(233, 93, 93);
+    
+}
+
+#secondcard{
+    border: 2px solid rgb(233, 93, 93);
+}
+
+
+#uno{
+    display: grid;
+    grid-template-columns: auto auto ;
+    grid-template-rows: 1fr;
+    margin-right: 0px;
+    
+}
+#uno p{
+    padding-right: 20px;
+    padding-left: 50px;
+    padding-top: 10px;
+    text-align: left;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    font-size: 20px;
+    font-weight: 300;
+    font-style: normal;
+}
+#uno img{
+    margin-left: 50px;
+    margin-right: 50px;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    border-radius: 14%;
+
+}
+#dos{
+    display:grid;
+    grid-template-columns: auto 1fr ;
+    grid-template-rows: 1fr 1fr ;
+}
+ #parrafo{
+    
+    text-align: center;
+    color: gray;
+    margin: 0px;
+    padding-top: 7px;
+    padding-bottom: 0px;
+    font-size: 25px;
+    font-weight: bold;
+    font-style: normal;
+    
+}
+
+#dos img{
+    grid-column:1/2 ;
+    grid-row: 1/2;
+    text-align: left;
+    padding-top: 20px;
+    padding-left: 50px;
+    padding-right: 20px;
+}
+ #parrafodos{
+    grid-column: 2/3;
+    grid-row: 1/3;
+    text-align: left;
+    padding-left: 50px;
+    padding-right: 40px;
+    font-size: 21px;
+    font-weight: 300;
+    font-style: normal;
+}
+#dos .flag{
+    grid-column: 1/2;
+    grid-row: 2/3;
+    text-align: center;
+    padding-left: 10px;
+    font-weight: 500;
+    font-style: italic;
+    color: gray;
+    font-size: 150%;
+    
+}
+
+nav{
+    padding: 30px;
+    padding-top: 100px;
+    
+}
+nav a{
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    text-align: center;
+    font-weight: 400;
+    font-style: normal;
+    
+}
+footer{
+    background:red;
+    padding: 10px;
+    text-align: center;
+    font-weight: 400;
+    font-style: normal;
+}
+#last{
+    color:black;
+    font-size: 25px;
+}
+ #lastModified{
+    color: #fff;
+    font-size: 20px;
+}
